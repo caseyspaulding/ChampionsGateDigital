@@ -41,14 +41,11 @@
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
                   </li>
                   <li>
-                    <a href="#"><i class="fab fa-github"></i></a>
-                  </li>
+                 
                   <li>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.linkedin.com/company/orlando-software"><i class="fab fa-linkedin-in"></i></a>
                   </li>
-                  <li>
-                    <a href="#"><i class="fab fa-discord"></i></a>
-                  </li>
+                  
                 </ul>
               </div>
             </div>
@@ -364,9 +361,7 @@
                         <p class="pq-text-white mb-0">
                           casey@orlandosoftware.net
                         </p>
-                        <p class="pq-text-white mb-0">
-                          laura@orlandosoftware.net
-                        </p>
+                       
                       </div>
                     </div>
                     <div class="pq-icon-box pq-style-5">
@@ -401,62 +396,23 @@
                   send us an email directly.
                 </p>
               </div>
-              <form action="#" class="pq-contactform pq-applyform" novalidate>
-                <div class="row">
-                  <div class="col-lg-6 col-md-6">
-                    <input
-                      type="text"
-                      id="first-name"
-                      class="name-field"
-                      placeholder="Your Name"
-                      required
-                    />
-                  </div>
-                  <div class="col-lg-6 col-md-6">
-                    <input
-                      type="text"
-                      id="e-mail"
-                      class="e-mail-field"
-                      placeholder="Email"
-                      required
-                    />
-                  </div>
-                  <div class="col-lg-6 col-md-6">
-                    <input
-                      type="text"
-                      id="phone-number"
-                      class="phone-number-field"
-                      placeholder="Cell Phone"
-                      required
-                    />
-                  </div>
-                  <div class="col-lg-6 col-md-6">
-                    <input
-                      type="text"
-                      id="subject"
-                      class="subject-field"
-                      placeholder="Subject"
-                      required
-                    />
-                  </div>
-                  <div class="col-lg-12">
-                    <textarea
-                      id="message"
-                      rows="5"
-                      cols="10"
-                      placeholder="Your Message"
-                      required
-                    ></textarea>
-                  </div>
-                  <div class="col-lg-12">
-                    <a class="pq-button form-btn">
-                      <div class="pq-button-block">
-                        <span class="pq-button-text">Send Message</span>
-                      </div>
-                    </a>
-                  </div>
+              <form name="contact" method="POST" data-netlify="true" id="contact-form">      
+			       <div class="row g-4">
+                <div class="col-xl-6">
+                <input name="name" type="text" class="form-control" required placeholder="Name">
                 </div>
-              </form>
+                <div class="col-xl-6">
+                <input name="email" type="email" class="form-control" required placeholder="Email">
+                </div>
+				        <div class="col">
+					     <textarea name="form-message" class="form-control" rows="5" required placeholder="Your message........"></textarea>
+				       </div>
+              </div>
+			  
+              <p class="text-center mt-4 mb-8">
+				<button id="submit-btn" class="btn btn-outline-primary rounded-pill shadow-none d-inline-flex" type="submit">Send Message</button>
+              </p>
+            </form>
             </div>
           </div>
         </div>
