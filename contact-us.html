@@ -30,7 +30,7 @@
     <!--Loading End -->
 
     <!--Header Start-->
-    <header id="pq-header" class="pq-header-default">
+    <header id="pq-header" class="pq-header-default shadow-lg">
       <div class="pq-top-header">
         <div class="container">
           <div class="row flex-row-reverse">
@@ -295,33 +295,14 @@
     <!--Header End-->
 
     <!--Breadcrumb Start-->
-    <div class="pq-breadcrumb pq-bg-dark pq-bg-img-2">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-12">
-            <nav aria-label="breadcrumb">
-              <div class="pq-breadcrumb-title">
-                <h1>Contact Us</h1>
-              </div>
-              <div class="pq-breadcrumb-container">
-                <ol class="breadcrumb align-items-center">
-                  <li class="breadcrumb-item">
-                    <a href="index.html"><i class="fa fa-home me-2"></i>Home</a>
-                  </li>
-                  <li class="breadcrumb-item active">Contact Us</li>
-                </ol>
-              </div>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </div>
+   
+  
     <!--Breadcrumb End-->
-
+    
     <!--Contacts & Forms Start-->
     <section class="contact-form">
       <div class="container">
-        <div class="row g-0 align-items-center">
+        <div class="row g-0 ">
           <div class="col-lg-5">
             <div class="pq-bg-dark pq-contact-form-p">
               <div class="pq-section pq-style-1 text-left">
@@ -378,41 +359,25 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-7 mt-4 mt-lg-0">
+          <div class="col-lg-7">
             <div class="form-div">
               <div class="pq-section pq-style-1 text-left">
-                <h5
+                <h4
                   class="pq-section-title"
                   id="quote"
                   data-high_text="Quote"
                   data-title_text="Request A Quote"
                   data-rough_color="#127ddd"
-                  data-rough_type="underline"
-                >
-                  Request A Quote
-                </h5>
-                <p class="pq-section-description">
-                  Please include details about your project in the form below or
-                  send us an email directly.
-                </p>
+                  data-rough_type="underline">
+                  Set up a free consultation.
+                </h4>
+                 <!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/orlandosoftware/30min" style="min-width:320px;height:730px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- Calendly inline widget end -->
+                
               </div>
-              <form name="contact" method="POST" data-netlify="true" id="contact-form">      
-			       <div class="row g-4">
-                <div class="col-xl-6">
-                <input name="name" type="text" class="form-control" required placeholder="Name">
-                </div>
-                <div class="col-xl-6">
-                <input name="email" type="email" class="form-control" required placeholder="Email">
-                </div>
-				        <div class="col">
-					     <textarea name="form-message" class="form-control" rows="5" required placeholder="Your message........"></textarea>
-				       </div>
-              </div>
-			  
-              <p class="text-center mt-4 mb-8">
-				<button id="submit-btn" class="btn btn-outline-primary rounded-pill shadow-none d-inline-flex" type="submit">Send Message</button>
-              </p>
-            </form>
+              
             </div>
           </div>
         </div>
