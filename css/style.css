@@ -6646,5 +6646,5 @@ Custom CSS
 .pq-applyform .pq-msg-error-message{
 	position: relative;
 	bottom: 8%;
-	color: red;
+	color: rgb(0, 106, 255);
 }
