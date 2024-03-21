@@ -1,0 +1,327 @@
+repo_name: caseyspaulding/ChampionsGateDigital
+report_id: ba6251479510d7262ee9b9341820720c
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-21T13:26:12+00:00'
+requested_by: caseyspaulding
+provider: github
+branch: main
+detected_tools_count: 25
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/caseyspaulding/ChampionsGateDigital
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/caseyspaulding/ChampionsGateDigital
+  detection_source: Repo Metadata
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/caseyspaulding/ChampionsGateDigital
+  detection_source: Repo Metadata
+- name: Symfony
+  description: A PHP full-stack web framework
+  website_url: http://symfony.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1197/logosf_positif_03_icon.png
+  detection_source_url: https://github.com/caseyspaulding/ChampionsGateDigital/blob/main/PHPMailer/composer.json
+  detection_source: PHPMailer/composer.json
+  last_updated_by: Casey Spaulding
+  last_updated_on: 2023-02-03 19:59:07.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/caseyspaulding/ChampionsGateDigital
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/caseyspaulding/ChampionsGateDigital/blob/main/.github/workflows/firebase-hosting-merge.yml
+  detection_source: ".github/workflows/firebase-hosting-merge.yml"
+  last_updated_by: Casey Spaulding
+  last_updated_on: 2023-02-05 18:31:08.000000000 Z
+- name: PHPUnit
+  description: Testing framework for PHP
+  website_url: https://phpunit.de/
+  version: 4.8.35
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
+  detection_source_url: https://github.com/caseyspaulding/ChampionsGateDigital/blob/main/PHPMailer/composer.lock
+  detection_source: PHPMailer/composer.json
+  last_updated_by: Casey Spaulding
+  last_updated_on: 2023-02-03 19:59:07.000000000 Z
+- name: doctrine/annotations
+  description: Docblock Annotations Parser
+  package_url: https://packagist.org/doctrine/annotations
+  version: 1.2.7
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/caseyspaulding/ChampionsGateDigital/blob/main/PHPMailer/composer.lock
+  detection_source: PHPMailer/composer.json
+  last_updated_by: Casey Spaulding
+  last_updated_on: 2023-02-03 19:59:07.000000000 Z
+- name: jms/serializer
+  description: Library for
+  package_url: https://packagist.org/jms/serializer
+  version: 0.16.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/caseyspaulding/ChampionsGateDigital/blob/main/PHPMailer/composer.lock
+  detection_source: PHPMailer/composer.json
+  last_updated_by: Casey Spaulding
+  last_updated_on: 2023-02-03 19:59:07.000000000 Z
+- name: phpdocumentor/phpdocumentor
+  description: Documentation Generator for PHP
+  package_url: https://packagist.org/phpdocumentor/phpdocumentor
+  version: 2.9.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/caseyspaulding/ChampionsGateDigital/blob/main/PHPMailer/composer.lock
+  detection_source: PHPMailer/composer.json
+  last_updated_by: Casey Spaulding
+  last_updated_on: 2023-02-03 19:59:07.000000000 Z
+- name: phpunit/phpunit
+  description: The PHP Unit Testing framework
+  package_url: https://packagist.org/phpunit/phpunit
+  version: 4.8.35
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/caseyspaulding/ChampionsGateDigital/blob/main/PHPMailer/composer.lock
+  detection_source: PHPMailer/composer.json
+  last_updated_by: Casey Spaulding
+  last_updated_on: 2023-02-03 19:59:07.000000000 Z
+- name: symfony/debug
+  description: Provides tools to ease debugging PHP code
+  package_url: https://packagist.org/symfony/debug
+  version: 2.8.18
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/caseyspaulding/ChampionsGateDigital/blob/main/PHPMailer/composer.lock
+  detection_source: PHPMailer/composer.json
+  last_updated_by: Casey Spaulding
+  last_updated_on: 2023-02-03 19:59:07.000000000 Z
+- name: symfony/filesystem
+  description: Provides basic utilities for the filesystem
+  package_url: https://packagist.org/symfony/filesystem
+  version: 2.8.18
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/caseyspaulding/ChampionsGateDigital/blob/main/PHPMailer/composer.lock
+  detection_source: PHPMailer/composer.json
+  last_updated_by: Casey Spaulding
+  last_updated_on: 2023-02-03 19:59:07.000000000 Z
+- name: symfony/translation
+  description: Provides tools to internationalize your application
+  package_url: https://packagist.org/symfony/translation
+  version: 2.8.18
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/caseyspaulding/ChampionsGateDigital/blob/main/PHPMailer/composer.lock
+  detection_source: PHPMailer/composer.json
+  last_updated_by: Casey Spaulding
+  last_updated_on: 2023-02-03 19:59:07.000000000 Z
+- name: symfony/yaml
+  description: Loads and dumps YAML files
+  package_url: https://packagist.org/symfony/yaml
+  version: 2.8.18
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/caseyspaulding/ChampionsGateDigital/blob/main/PHPMailer/composer.lock
+  detection_source: PHPMailer/composer.json
+  last_updated_by: Casey Spaulding
+  last_updated_on: 2023-02-03 19:59:07.000000000 Z
+- name: zendframework/zend-cache
+  description: Caching implementation with a variety of storage options
+  package_url: https://packagist.org/zendframework/zend-cache
+  version: 2.5.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/caseyspaulding/ChampionsGateDigital/blob/main/PHPMailer/composer.lock
+  detection_source: PHPMailer/composer.json
+  last_updated_by: Casey Spaulding
+  last_updated_on: 2023-02-03 19:59:07.000000000 Z
+- name: zendframework/zend-config
+  description: Provides a nested object property based user interface for accessing
+    this configuration data within application code
+  package_url: https://packagist.org/zendframework/zend-config
+  version: 2.5.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/caseyspaulding/ChampionsGateDigital/blob/main/PHPMailer/composer.lock
+  detection_source: PHPMailer/composer.json
+  last_updated_by: Casey Spaulding
+  last_updated_on: 2023-02-03 19:59:07.000000000 Z
+- name: zendframework/zend-eventmanager
+  description: Trigger and listen to events within a PHP application
+  package_url: https://packagist.org/zendframework/zend-eventmanager
+  version: 2.5.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/caseyspaulding/ChampionsGateDigital/blob/main/PHPMailer/composer.lock
+  detection_source: PHPMailer/composer.json
+  last_updated_by: Casey Spaulding
+  last_updated_on: 2023-02-03 19:59:07.000000000 Z
+- name: zendframework/zend-filter
+  description: Programmatically filter and normalize data and files
+  package_url: https://packagist.org/zendframework/zend-filter
+  version: 2.5.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/caseyspaulding/ChampionsGateDigital/blob/main/PHPMailer/composer.lock
+  detection_source: PHPMailer/composer.json
+  last_updated_by: Casey Spaulding
+  last_updated_on: 2023-02-03 19:59:07.000000000 Z
+- name: zendframework/zend-i18n
+  description: Provide translations for your application
+  package_url: https://packagist.org/zendframework/zend-i18n
+  version: 2.5.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/caseyspaulding/ChampionsGateDigital/blob/main/PHPMailer/composer.lock
+  detection_source: PHPMailer/composer.json
+  last_updated_by: Casey Spaulding
+  last_updated_on: 2023-02-03 19:59:07.000000000 Z
+- name: zendframework/zend-json
+  description: Provides convenience methods for serializing native PHP to JSON and
+    decoding JSON to native PHP
+  package_url: https://packagist.org/zendframework/zend-json
+  version: 2.5.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/caseyspaulding/ChampionsGateDigital/blob/main/PHPMailer/composer.lock
+  detection_source: PHPMailer/composer.json
+  last_updated_by: Casey Spaulding
+  last_updated_on: 2023-02-03 19:59:07.000000000 Z
+- name: zendframework/zend-math
+  description: Create cryptographically secure pseudo-random numbers
+  package_url: https://packagist.org/zendframework/zend-math
+  version: 2.5.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/caseyspaulding/ChampionsGateDigital/blob/main/PHPMailer/composer.lock
+  detection_source: PHPMailer/composer.json
+  last_updated_by: Casey Spaulding
+  last_updated_on: 2023-02-03 19:59:07.000000000 Z
+- name: zendframework/zend-serializer
+  description: Serialize and deserialize PHP structures to a variety of representations
+  package_url: https://packagist.org/zendframework/zend-serializer
+  version: 2.5.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/caseyspaulding/ChampionsGateDigital/blob/main/PHPMailer/composer.lock
+  detection_source: PHPMailer/composer.json
+  last_updated_by: Casey Spaulding
+  last_updated_on: 2023-02-03 19:59:07.000000000 Z
+- name: zendframework/zend-servicemanager
+  description: Factory-Driven Dependency Injection Container
+  package_url: https://packagist.org/zendframework/zend-servicemanager
+  version: 2.5.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/caseyspaulding/ChampionsGateDigital/blob/main/PHPMailer/composer.lock
+  detection_source: PHPMailer/composer.json
+  last_updated_by: Casey Spaulding
+  last_updated_on: 2023-02-03 19:59:07.000000000 Z
+- name: zendframework/zend-stdlib
+  description: SPL extensions, array utilities, error handlers, and more
+  package_url: https://packagist.org/zendframework/zend-stdlib
+  version: 2.5.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/caseyspaulding/ChampionsGateDigital/blob/main/PHPMailer/composer.lock
+  detection_source: PHPMailer/composer.json
+  last_updated_by: Casey Spaulding
+  last_updated_on: 2023-02-03 19:59:07.000000000 Z
